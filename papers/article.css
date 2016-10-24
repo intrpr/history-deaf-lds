@@ -1,0 +1,45 @@
+/* CSS Document */
+
+	@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
+	
+	* { padding: 0; margin: 0; }
+	body { font-size: 130%; line-height: 185%; color: #444; font-family: podkova, serif; font-weight: normal; }
+	.container { padding: 6em 7em 7em 7em; }
+
+	h1 { font-weight: bold; text-align: center; font-size: 105%; line-height: 135%; margin: 2em 0 .5em 0; }
+	h2 { font-weight: bold; font-style: italic; text-align: left; font-size: 102%; margin: 1em 0 0 0; }
+	h3 { font-weight: normal; font-style: italic; text-align: left; font-size: 102%; margin: 1em 0 0 0; }
+	h4 { font-weight: normal; text-align: left; font-size: 175%; margin: 0 0 1em 0; }
+	h5 { font-weight: bold; font-size: 95%; line-height: 160%; margin: 0; }
+	h6 { font-weight: normal; font-size: 80%; line-height: 160%; margin: .6em 0 0 0; color: #666; }
+	sup { font-size: 100%; line-height: 0; vertical-align: superscript; }
+	sup:before { content: '['; }
+	sup:after { content: ']'; margin: 0 .2em 0 0; }
+	
+	.references a:after { content: '.'; margin: 0 .1em 0 0; }
+	
+	p { margin: 0 0 .3em 0; text-indent: 2em; }
+	a { color: #3a87ad; }
+	ul { margin: 0 0 .5em 0; }
+	li { margin: 0 0 0 2em; }
+	dt { font-weight: bold; line-height: 135%; }
+	dd { font-weight: normal; line-height: 135%; margin: 0 0 1.5em 0; }
+	blockquote { margin: 1em 3em 1em 2em; padding: 0 0 0 1em; border-left: 4px solid #eee; }
+	hr { border: 0; height: 1px; background: #ddd; color: #ddd; margin: 2em 0; clear: both; }
+
+	.alert { font-family: Helvetica, Arial, sans-serif; font-size: 70%; padding: 1.5em; border-radius: .4em; color: #3a87ad; background: #d9edf7; border: 1px solid #bce8f1; }
+	
+@media screen and (max-width: 480px) {
+	.container { padding: 2em; }
+	body { font-size: 1.05em; }
+}
+	
+/* Print Styles */
+@media print {
+  * { color: #000 !important; text-shadow: none !important; background: transparent !important; box-shadow: none !important; }
+  body { padding: 2em; font-size: 12px; }
+  p { font-size: 12px; }
+  .container { padding: 0; }
+  .alert { padding: 1em; border: 1px dotted #000; font-size: 60%; }
+  a, a:visited { text-decoration: underline; }
+}
