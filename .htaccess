@@ -1,0 +1,2 @@
+# AddHandler application/x-httpd-php53 .php
+SetEnv PHPRC /home/mysimon/public_html/history/php.ini

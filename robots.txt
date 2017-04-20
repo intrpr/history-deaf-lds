@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /papers/
+Disallow: /papers/index.html
+Disallow: /papers/0412_godmademedeaf.html
+Disallow: /papers/0813_deafldsspaces.html
+Disallow: /papers/1112_heardpetitions-women.html
